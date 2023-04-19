@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic Pro','Meiryo','sans-serif';
+    font-size: 15px;
+    border-top: 10px solid #79a1b1;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li {
+    width: 200px;
+    text-align: center;
+}
