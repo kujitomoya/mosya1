@@ -38,4 +38,48 @@ a {
 .header ul li {
     width: 200px;
     text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.header ul li:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.header ul li a {
+    display: block;
+}
+
+.header_img {
+    text-align: center;
+}
+
+.container_servise .servise_block {
+    display: flex;
+}
+
+.container_servise .servise {
+    width: 300px;
+}
+
+.container_servise h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container_servise .servise img {
+    margin-bottom: 20px;
+}
+
+.ttl {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: senter;
+}
+
+.container_servise .servise a {
+    background-color: #79a1b1;
+    color: #fff;
+    padding: 15px 20px 12px;
 }
